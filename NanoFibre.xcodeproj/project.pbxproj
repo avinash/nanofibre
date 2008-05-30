@@ -10,11 +10,11 @@
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		E119EF9F0DEFE13D00DC5EDB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E119EF9E0DEFE13D00DC5EDB /* Credits.rtf */; };
 		FC0F2A040AE04E6C00C72116 /* main_daemon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0F29B60AE04D1000C72116 /* main_daemon.m */; };
 		FC0F2B380AE25E9D00C72116 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0F2B370AE25E9D00C72116 /* Cocoa.framework */; };
 		FC0F2B3E0AE25ECF00C72116 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0F2B3D0AE25ECF00C72116 /* Carbon.framework */; };
 		FC0F2B410AE25ED100C72116 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0F2B370AE25E9D00C72116 /* Cocoa.framework */; };
-		FC3666E90DEE059900BC3C00 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC3666E80DEE059900BC3C00 /* Credits.rtf */; };
 		FC6DDFC20AEBE7FF00750E46 /* Nanofibre.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC6DDFC10AEBE7FF00750E46 /* Nanofibre.plist */; };
 		FC96CC0F0AEC0BA300334757 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96CC0E0AEC0BA300334757 /* Security.framework */; };
 		FC96CCBF0AEC17B800334757 /* fibred in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC0F29A70AE04CD700C72116 /* fibred */; };
@@ -62,11 +62,11 @@
 		32CA4F630368D1EE00C91783 /* Fibre_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibre_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* NanoFibre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoFibre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E119EF9E0DEFE13D00DC5EDB /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		FC0F29A70AE04CD700C72116 /* fibred */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fibred; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0F29B60AE04D1000C72116 /* main_daemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_daemon.m; sourceTree = "<group>"; };
 		FC0F2B370AE25E9D00C72116 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		FC0F2B3D0AE25ECF00C72116 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		FC3666E80DEE059900BC3C00 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = /Users/jon/Developer/NanoFibre/Credits.rtf; sourceTree = "<absolute>"; };
 		FC6DDFC10AEBE7FF00750E46 /* Nanofibre.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Nanofibre.plist; sourceTree = "<group>"; };
 		FC96CC0E0AEC0BA300334757 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		FCB47F320AD990FE00634969 /* HumanDiskSizeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanDiskSizeTransformer.h; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				FCBD15690AD9AC5C004C200C /* ConstructPlaylist.scpt */,
 				FC6DDFC10AEBE7FF00750E46 /* Nanofibre.plist */,
-				FC3666E80DEE059900BC3C00 /* Credits.rtf */,
+				E119EF9E0DEFE13D00DC5EDB /* Credits.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				FC6DDFC20AEBE7FF00750E46 /* Nanofibre.plist in Resources */,
-				FC3666E90DEE059900BC3C00 /* Credits.rtf in Resources */,
+				E119EF9F0DEFE13D00DC5EDB /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
