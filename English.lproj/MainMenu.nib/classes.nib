@@ -28,6 +28,8 @@
 			<dict>
 				<key>arrayController</key>
 				<string>NSArrayController</string>
+				<key>ignoreVideos</key>
+				<string>NSButton</string>
 				<key>sizeField</key>
 				<string>NSTextField</string>
 				<key>sizeLabel</key>

@@ -36,6 +36,7 @@
 	IBOutlet NSTextField *sizeField;
 	IBOutlet NSTextField *sizeLabel;
 	IBOutlet NSWindow *window;
+	IBOutlet NSButton *ignoreVideos;
 }
 -(IBAction)makePlaylist:(id)sender;
 -(IBAction)installDaemon:(id)sender;
