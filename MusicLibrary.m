@@ -153,6 +153,11 @@ static MusicLibrary* sharedLibrary = nil;
 	{
 		if ([track objectForKey:@"Disabled"])
 			continue;
+			
+		// ignore all videos... for the time being
+		if ([track objectForKey:@"Has Video"])
+			continue;
+		
 		Album* album = [albumCollection objectForKey:[Album albumKeyForTrack:track]];
 		if (!album)
 		{
