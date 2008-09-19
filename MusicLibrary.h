@@ -36,6 +36,6 @@
 	NSString* libraryName;
 }
 +(id)sharedLibrary;
--(void)createFibrePlaylist;
+-(void)createFibrePlaylist:(BOOL)ignoreVideos;
 
 @end

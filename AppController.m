@@ -56,7 +56,8 @@
 	// If we're running in daemon mode, just make the changes and leave.
 	if ([[[NSProcessInfo processInfo] environment] objectForKey:@"fibreDaemon"])
 	{
-		[[MusicLibrary sharedLibrary] createFibrePlaylist];
+		//TODO
+		[[MusicLibrary sharedLibrary] createFibrePlaylist: NSOnState];
 		[[NSApplication sharedApplication] terminate:self];
 	}
 	else
@@ -82,7 +83,10 @@
 	//Persuade the text field to end editing, so the size value is committed:
 	[sizeField selectText:self];
 	
-	[[MusicLibrary sharedLibrary] createFibrePlaylist];
+	//Should we ignore videos or not?
+	BOOL ignoreVideos = ([ignoreVideosCheckbox state] == NSOnState) ? TRUE : FALSE;
+	
+	[[MusicLibrary sharedLibrary: ignoreVideos] createFibrePlaylist];
 	
 	NSRunAlertPanel(@"Playlist Generated", @"Take a look in iTunes, you should have a NanoFibre playlist ready and waiting for your iPod syncing needs.", @"OK", nil, nil);
 }
@@ -176,7 +180,6 @@
 	NSString* pathToLibrary = [[NSUserDefaults standardUserDefaults] objectForKey:@"iTunesXMLPath"];
 	if (pathToLibrary && [[NSFileManager defaultManager] fileExistsAtPath:pathToLibrary])
 		return;	//We're good to go
-	
 	
 	//OK, we don't know where it is.  Check the obvious location:
 	pathToLibrary = [@"~/Music/iTunes/iTunes Music Library.xml" stringByExpandingTildeInPath];

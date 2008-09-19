@@ -88,6 +88,7 @@ NSAppleScript* loadScript(NSString* scriptName)
 
 
 @interface MusicLibrary (private)
+BOOL shouldIgnoreVideos;
 -(void)loadLibrary;
 -(NSArray*)fibreSelection;
 @end
@@ -97,8 +98,10 @@ NSAppleScript* loadScript(NSString* scriptName)
 
 static MusicLibrary* sharedLibrary = nil;
 
-+(id)sharedLibrary
++(id)sharedLibrary:(BOOL)ignoreVideos
 {
+	shouldIgnoreVideos = ignoreVideos;
+	
 	@synchronized(self) {
         if (sharedLibrary == nil) {
             sharedLibrary = [[self alloc] init];
@@ -154,9 +157,13 @@ static MusicLibrary* sharedLibrary = nil;
 		if ([track objectForKey:@"Disabled"])
 			continue;
 			
-		// ignore all videos... for the time being
-		if ([track objectForKey:@"Has Video"])
+		// TODO ignore all videos... for the time being
+		if ((shouldIgnoreVideos == TRUE) && ([track objectForKey:@"Has Video"]))
+		// if ([track objectForKey:@"Has Video"])
+		{
+			NSLog(@"Ignoring one video");
 			continue;
+		}
 		
 		Album* album = [albumCollection objectForKey:[Album albumKeyForTrack:track]];
 		if (!album)
