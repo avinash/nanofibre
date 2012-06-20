@@ -128,13 +128,26 @@
 	return [[path copy] autorelease];
 }
 
--(NSArray*)tracks
+-(NSArray*)trackPaths
 {
 	NSMutableArray* trackPaths = [NSMutableArray array];
-	nsenumerat(tracks, track)
-		[trackPaths addObject:[Album pathOfTrack:track]];
+	nsenumerat(tracks, track) {
+		NSString* path = [Album pathOfTrack:track];
+		if (path)
+			[trackPaths addObject:path];
+	}
 		
 	return [[trackPaths copy] autorelease];
+}
+
+-(NSArray*)trackIds
+{
+	NSMutableArray* trackIds = [NSMutableArray array];
+	nsenumerat(tracks, track) {
+		[trackIds addObject:[track objectForKey:@"Track ID"]];
+	}
+	
+	return [[trackIds copy] autorelease];
 }
 
 @end
