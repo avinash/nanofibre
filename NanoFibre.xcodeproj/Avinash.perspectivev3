@@ -277,8 +277,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>E119EF970DEFE07700DC5EDB</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MusicLibrary.m</string>
+								<string></string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,60 +320,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>E119EF980DEFE07700DC5EDB</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MusicLibrary.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>E162B7650E839914007550E8</string>
-										<key>history</key>
-										<array>
-											<string>E1CFF1530E1A19A000688D9A</string>
-											<string>E162B7130E839373007550E8</string>
-											<string>E162B73A0E8393FF007550E8</string>
-											<string>E162B75B0E83988E007550E8</string>
-											<string>E162B75C0E83988E007550E8</string>
-											<string>E162B75D0E83988E007550E8</string>
-										</array>
-										<key>prevStack</key>
-										<array>
-											<string>E1B714CD0DF6A79300125803</string>
-											<string>E1B714CE0DF6A79300125803</string>
-											<string>E1B714DD0DF6A88F00125803</string>
-											<string>E1B714DE0DF6A88F00125803</string>
-											<string>E1B714DF0DF6A88F00125803</string>
-											<string>E1B714E00DF6A88F00125803</string>
-											<string>E162B7180E839373007550E8</string>
-											<string>E162B7190E839373007550E8</string>
-											<string>E162B71A0E839373007550E8</string>
-											<string>E162B71B0E839373007550E8</string>
-											<string>E162B71C0E839373007550E8</string>
-											<string>E162B71D0E839373007550E8</string>
-											<string>E162B71E0E839373007550E8</string>
-											<string>E162B71F0E839373007550E8</string>
-											<string>E162B7200E839373007550E8</string>
-											<string>E162B7210E839373007550E8</string>
-											<string>E162B7220E839373007550E8</string>
-											<string>E162B7230E839373007550E8</string>
-											<string>E162B7240E839373007550E8</string>
-											<string>E162B7250E839373007550E8</string>
-											<string>E162B7260E839373007550E8</string>
-											<string>E162B7270E839373007550E8</string>
-											<string>E162B7280E839373007550E8</string>
-											<string>E162B7290E839373007550E8</string>
-											<string>E162B72A0E839373007550E8</string>
-											<string>E162B72B0E839373007550E8</string>
-											<string>E162B72C0E839373007550E8</string>
-											<string>E162B72D0E839373007550E8</string>
-											<string>E162B72E0E839373007550E8</string>
-											<string>E162B72F0E839373007550E8</string>
-											<string>E162B73C0E8393FF007550E8</string>
-											<string>E162B73D0E8393FF007550E8</string>
-											<string>E162B7450E83946A007550E8</string>
-											<string>E162B75E0E83988E007550E8</string>
-											<string>E162B75F0E83988E007550E8</string>
-											<string>E162B7600E83988E007550E8</string>
-											<string>E162B7610E83988E007550E8</string>
-										</array>
+										<string></string>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -493,11 +438,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E162B6F70E838DDB007550E8</string>
+				<string>E18539210F39F070003D7015</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>E162B6F80E838DDB007550E8</string>
+				<string>E18539220F39F070003D7015</string>
 				<string>E119EF970DEFE07700DC5EDB</string>
-				<string>E162B6F90E838DDB007550E8</string>
+				<string>E18539230F39F070003D7015</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -572,8 +517,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {624, 229}}</string>
-									<string>{{624, 0}, {656, 229}}</string>
+									<string>{{0, 0}, {625, 231}}</string>
+									<string>{{625, 0}, {655, 231}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -588,8 +533,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1280, 229}}</string>
-									<string>{{0, 229}, {1280, 242}}</string>
+									<string>{{0, 0}, {1280, 231}}</string>
+									<string>{{0, 231}, {1280, 240}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -619,10 +564,10 @@
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>426</real>
+								<real>425</real>
 							</array>
 							<key>Frame</key>
-							<string>{{624, 0}, {656, 229}}</string>
+							<string>{{625, 0}, {655, 231}}</string>
 							<key>RubberWindowFrame</key>
 							<string>0 59 1280 719 0 0 1280 778 </string>
 						</dict>
@@ -650,14 +595,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E162B7320E839374007550E8</string>
+				<string>E18539240F39F070003D7015</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>E162B7330E839374007550E8</string>
-				<string>E162B7340E839374007550E8</string>
-				<string>E162B7350E839374007550E8</string>
-				<string>E162B7360E839374007550E8</string>
-				<string>E119EF970DEFE07700DC5EDB</string>
+				<string>E18539250F39F070003D7015</string>
+				<string>E18539260F39F070003D7015</string>
+				<string>E18539270F39F070003D7015</string>
+				<string>E18539280F39F070003D7015</string>
+				<string>E185391C0F39F064003D7015</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
